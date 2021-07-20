@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Merienda:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #0077b6;
+    --secondary-color: #3a0ca3;
+    --dark-color: #292929;
+    --dark-blue-color: #011627;
+    --white-color: #eaf1ec;
+    --gray-color: #d9d9d9;
+    --orange-color: #ff993b;
+}
+
+body {
+    box-sizing: border-box;
+    color: var(--dark-color)
+}
+
+nav {
+    background-color: var(--dark-blue-color)
+}
+
+main>.container {
+    padding: 60px 15px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color)
+}
+
+.logoFont {
+    font-family: 'Merienda', cursive;
+    /* font-family: 'Merienda One', cursive; */
+}
+
+.jsicon {
+    color: rgb(226, 211, 4)
+}
+.bsicon {
+    color: rgb(118, 17, 247)
+}
+.html5icon {
+    color: orangered
+}
+.cssicon {
+    color: rgb(11, 82, 214)
+}
+
+.checklist>li i {
+    color: var(--secondary-color)
+}
+
+code[class="language-"],
+pre[class="language-"]  {
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    /* font-size: 1.5rem;  */
+    /* 1em */
+}
+
+footer {
+    background-color: var(--dark-blue-color);
+    padding-right: 1rem;
+}
+
+footer .social>a {
+    color: var(--white-color);
+    opacity: 0.75;
+}
+
+footer .social>a:hover {
+    color: var(--primary-color);
+    opacity: 0.75;
+}
