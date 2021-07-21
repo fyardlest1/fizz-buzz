@@ -7,7 +7,8 @@
     --dark-blue-color: #011627;
     --white-color: #eaf1ec;
     --gray-color: #d9d9d9;
-    --orange-color: #ff993b;
+    --yellow-color: #ffd000;
+    --purple-color: #7209b7;
 }
 
 body {
@@ -16,16 +17,21 @@ body {
 }
 
 nav {
-    background-color: var(--dark-blue-color)
+    background-color: var(--purple-color)
 }
 
 main>.container {
     padding: 60px 15px 0;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3 {
     color: var(--primary-color)
 }
+
+h4, h4, h6 {
+    color: var(--dark-blue-color)
+}
+
 
 .logoFont {
     font-family: 'Merienda', cursive;
@@ -46,7 +52,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .checklist>li i {
-    color: var(--secondary-color)
+    color: var(--yellow-color)
+}
+
+.btnCustom {
+    background-color: #7209b7;
+}
+
+.Fizz {
+    color: rgb(30, 141, 30)
+}
+
+.Buzz {
+    color: orangered
+}
+
+.FizzBuzz {
+    color: var(--secondary-color);
+    font-weight: bold;
 }
 
 code[class="language-"],
@@ -59,7 +82,7 @@ pre[class="language-"]  {
 }
 
 footer {
-    background-color: var(--dark-blue-color);
+    background-color: var(--purple-color);
     padding-right: 1rem;
 }
 
@@ -69,6 +92,6 @@ footer .social>a {
 }
 
 footer .social>a:hover {
-    color: var(--primary-color);
+    color: var(--dark-color);
     opacity: 0.75;
 }
